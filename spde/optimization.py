@@ -78,9 +78,8 @@ def optimize_parameters(
 
         current_loss = loss.item()
         if (
-            use_stopping_criterion
-            and (ftol_rel is not None)
-            and (iterations_counter > 15)
+            use_stopping_criterion and (ftol_rel is not None)
+            # and (iterations_counter > 15)
         ):
             loss_ratio = np.abs(current_loss - prev_loss) / np.abs(current_loss)
             if loss_ratio < ftol_rel:
