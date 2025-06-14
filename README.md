@@ -1,7 +1,5 @@
 # Masters Code 2025
 
-Implementation of the proposed model from my Master's thesis. 
+Implementation of the proposed model from Master's thesis. An example notebook of how to use the code is provided, but the repo does not imclude code used for the simulation study and applications.
 
-Install packages using uv.
-
-An example notebook of how to use the code is provided.
+Install packages specified in uv.lock using uv, or alternatively from the requirements.txt file using pip.
